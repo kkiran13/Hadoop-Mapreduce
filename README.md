@@ -9,4 +9,6 @@ Implemented in Hadoop using Java Mapreduce to accomplish this task by running on
 Can be run locally on Eclipse too by installing Hadoop on the system and passing the input parameters to the Main.java class.
 3 parameters are passed to the Main.Java class: number of nodes(Integer), Input file path, Output file path
 
-Example: 4, /home/stockfiles, /home/outputpath
+Example: 1, /home/inputpath, /home/outputpath
+
+Use jar file to run locally: Command:$HADOOP_HOME/bin/hadoop jar mapreduce.jar Main.java 1 input_dir output_dir
